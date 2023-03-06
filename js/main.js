@@ -1,6 +1,7 @@
-let zmienna = document.getElementById("opis");
+let zmienna = document.getElementById("opis")
+zmienna.textContent = 'Mariusz'
+
 
 let button = document.querySelector('button').onclick = function () {
-    alert(zmienna + 'dowolny tekst')
-};
-console.log(zmienna)
+    alert(onclick)
+}
